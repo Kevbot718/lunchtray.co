@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Lunchtray.co";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lunchtray.co Home Page</h2>
+
+@*page links*@
+<body>
+    <div>
+        @Html.ActionLink("Recipes", "Index", "Recipes", null, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Ingredients", "Index", "Ingredients", null, new { @class = "btn btn-success" })
+        @Html.ActionLink("Orders", "Index", "Orders", null, new { @class = "btn btn-danger" })
+        @Html.ActionLink("Subscriptions", "Index", "Subscriptions", null, new { @class = "btn btn-primary" })
+    </div>
+</body>

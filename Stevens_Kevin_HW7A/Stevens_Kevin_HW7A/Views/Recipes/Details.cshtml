@@ -1,0 +1,58 @@
+﻿@model Stevens_Kevin_HW7A.Models.Recipe
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Recipe</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingredient)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingredient)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingredient2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingredient2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingredient3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingredient3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WorkInstructions)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WorkInstructions)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.RecipeID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

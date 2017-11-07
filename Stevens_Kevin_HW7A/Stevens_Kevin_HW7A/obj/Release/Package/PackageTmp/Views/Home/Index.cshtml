@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Membership Tracker";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Member Tracker Home Page</h2>
+
+@*page links*@
+<body>
+    <div>
+        @Html.ActionLink("Members", "Index", "Members", null, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Events", "Index", "Events", null, new { @class = "btn btn-success" })
+        @Html.ActionLink("Committees", "Index", "Committees", null, new { @class = "btn btn-danger" })
+    </div>
+</body>
