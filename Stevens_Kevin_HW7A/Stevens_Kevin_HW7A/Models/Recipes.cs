@@ -18,18 +18,22 @@ namespace Stevens_Kevin_HW7A.Models
         [Display(Name = "Name")]
         public string Name { get; set; }
 
-        [Display(Name = "Ingredient")]
-        public string Ingredient { get; set; }
+        [Display(Name = "Prep Time")]
+        public Int32 PrepTime { get; set; }
 
-        [Display(Name = "Ingredient 2")]
-        public string Ingredient2 { get; set; }
+        [Display(Name = "Cook Time")]
+        public Int32 CookTime { get; set; }
 
-        [Display(Name = "Ingredient 3")]
-        public string Ingredient3 { get; set; }
+        [Display(Name = "Total Cost")]
+        public double TotalCost { get; set; }
 
-        [Display(Name = "Work Instructions")]
-        public string WorkInstructions { get; set; }
+        [Display(Name = "Notes")]
+        public string Notes { get; set; }
 
-        public virtual List<Ingredient> Ingredients { get; set; }
+        public Int32 InstructionID { get; set; }
+
+        public virtual Order Order { get; set; }
+        public virtual List<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
+
     }
 }

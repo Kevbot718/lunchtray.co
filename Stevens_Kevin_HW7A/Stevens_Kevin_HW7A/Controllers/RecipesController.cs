@@ -46,7 +46,7 @@ namespace Stevens_Kevin_HW7A.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "RecipeID,Name,Ingredient,Ingredient2,Ingredient3,WorkInstructions")] Recipe recipe)
+        public ActionResult Create([Bind(Include = "RecipeID,Name,PrepTime,CookTime,TotalCost,Notes,InstructionID")] Recipe recipe)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace Stevens_Kevin_HW7A.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "RecipeID,Name,Ingredient,Ingredient2,Ingredient3,WorkInstructions")] Recipe recipe)
+        public ActionResult Edit([Bind(Include = "RecipeID,Name,PrepTime,CookTime,TotalCost,Notes,InstructionID")] Recipe recipe)
         {
             if (ModelState.IsValid)
             {

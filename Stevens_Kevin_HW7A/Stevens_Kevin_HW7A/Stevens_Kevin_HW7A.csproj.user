@@ -11,6 +11,7 @@
     <WebStackScaffolding_DbContextTypeFullName>Stevens_Kevin_HW7A.Models.AppDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
     <NameOfLastUsedPublishProfile>StevensKevinnHW7A - Web Deploy</NameOfLastUsedPublishProfile>
+    <UseIISExpress>true</UseIISExpress>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

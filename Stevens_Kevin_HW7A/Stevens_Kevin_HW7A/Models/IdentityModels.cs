@@ -1,9 +1,4 @@
-﻿//Author: Kevin Stevens
-//Date: April 14, 2017
-//Assignment: Homework 7
-//Description: Implement identity into expanded member tracker MVC website linked with entity framework
-
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -74,5 +69,6 @@ namespace Stevens_Kevin_HW7A.Models
         public DbSet<Ingredient> Ingredients { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }
+        public DbSet<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
     }
 }
