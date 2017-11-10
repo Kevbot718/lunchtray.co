@@ -34,6 +34,7 @@ namespace Stevens_Kevin_HW7A.Models
 
         public virtual Order Order { get; set; }
         public virtual List<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
+        public virtual List<Instruction> Instructions { get; set; }
 
     }
 }

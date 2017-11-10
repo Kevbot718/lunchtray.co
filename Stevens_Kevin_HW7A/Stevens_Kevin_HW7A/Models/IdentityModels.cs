@@ -70,5 +70,6 @@ namespace Stevens_Kevin_HW7A.Models
         public DbSet<Order> Orders { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }
         public DbSet<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
+        public DbSet<Instruction> Instruction { get; set; }
     }
 }

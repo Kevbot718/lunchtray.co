@@ -203,3 +203,5 @@ C:\Users\clab-admin\Documents\GitHub\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kev
 C:\Users\clab-admin\Documents\GitHub\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.dll
 C:\Users\clab-admin\Documents\GitHub\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.pdb
 C:\Users\clab-admin\Documents\GitHub\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.new1.resources
+\\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.new1.resources
+\\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.instruction.resources
