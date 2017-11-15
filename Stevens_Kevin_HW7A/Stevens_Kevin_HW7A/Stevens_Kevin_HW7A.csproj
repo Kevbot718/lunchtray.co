@@ -247,6 +247,18 @@
     <Compile Include="Migrations\201711100124382_instruction.Designer.cs">
       <DependentUpon>201711100124382_instruction.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711150236319_recipeviewmodel.cs" />
+    <Compile Include="Migrations\201711150236319_recipeviewmodel.Designer.cs">
+      <DependentUpon>201711150236319_recipeviewmodel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711150243411_addedingredients.cs" />
+    <Compile Include="Migrations\201711150243411_addedingredients.Designer.cs">
+      <DependentUpon>201711150243411_addedingredients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711150257174_whatever.cs" />
+    <Compile Include="Migrations\201711150257174_whatever.Designer.cs">
+      <DependentUpon>201711150257174_whatever.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -257,6 +269,7 @@
     <Compile Include="Models\Orders.cs" />
     <Compile Include="Models\RecipeIngredientBridge.cs" />
     <Compile Include="Models\Recipes.cs" />
+    <Compile Include="Models\RecipeViewModel.cs" />
     <Compile Include="Models\RoleViewModels.cs" />
     <Compile Include="Models\Subscriptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -329,6 +342,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711100124382_instruction.resx">
       <DependentUpon>201711100124382_instruction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711150236319_recipeviewmodel.resx">
+      <DependentUpon>201711150236319_recipeviewmodel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711150243411_addedingredients.resx">
+      <DependentUpon>201711150243411_addedingredients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711150257174_whatever.resx">
+      <DependentUpon>201711150257174_whatever.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

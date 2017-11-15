@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Stevens_Kevin_HW7A.Models
 {
-    public enum MeasurementType { };
+    public enum MeasurementType {Slice, Oz, PC, Stick, Staple, };
 
     public class RecipeIngredientBridge
     {
@@ -17,6 +17,9 @@ namespace Stevens_Kevin_HW7A.Models
 
         [Key, Column(Order = 1)]
         public Int32 IngredientID { get; set; }
+
+        [Display (Name = "Ingredient Name")]
+        public string Name { get; set; }
 
         public MeasurementType MeasurementType { get; set; }
 

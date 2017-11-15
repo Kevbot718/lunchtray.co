@@ -71,5 +71,7 @@ namespace Stevens_Kevin_HW7A.Models
         public DbSet<Subscription> Subscriptions { get; set; }
         public DbSet<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
         public DbSet<Instruction> Instruction { get; set; }
+
+        public System.Data.Entity.DbSet<Stevens_Kevin_HW7A.Models.RecipeViewModel> RecipeViewModels { get; set; }
     }
 }
