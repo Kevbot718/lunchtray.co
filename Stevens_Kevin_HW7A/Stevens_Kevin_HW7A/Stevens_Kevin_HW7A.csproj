@@ -155,7 +155,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Content\Site2.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -211,7 +210,6 @@
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\RecipeIngredientBridgesController.cs" />
     <Compile Include="Controllers\RecipesController.cs" />
-    <Compile Include="Controllers\RecipeViewModelsController.cs" />
     <Compile Include="Controllers\RoleAdminController.cs" />
     <Compile Include="Controllers\SubscriptionsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -305,11 +303,6 @@
     <Content Include="Views\RecipeIngredientBridges\Details.cshtml" />
     <Content Include="Views\RecipeIngredientBridges\Edit.cshtml" />
     <Content Include="Views\RecipeIngredientBridges\Index.cshtml" />
-    <Content Include="Views\RecipeViewModels\Create.cshtml" />
-    <Content Include="Views\RecipeViewModels\Delete.cshtml" />
-    <Content Include="Views\RecipeViewModels\Details.cshtml" />
-    <Content Include="Views\RecipeViewModels\Edit.cshtml" />
-    <Content Include="Views\RecipeViewModels\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

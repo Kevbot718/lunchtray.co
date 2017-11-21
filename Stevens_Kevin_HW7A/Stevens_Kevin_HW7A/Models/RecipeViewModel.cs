@@ -22,7 +22,7 @@ namespace Stevens_Kevin_HW7A.Models
         [Display (Name ="Unit")]
         public MeasurementType MeasurementType { get; set; }
 
-        [Display (Name ="Quantity")]
+        [Display (Name ="Measurement Quantity")]
         public Int32 MeasurementQuantity { get; set; }
 
         [Display(Name = "Prep Time")]
@@ -37,7 +37,7 @@ namespace Stevens_Kevin_HW7A.Models
         [Display(Name = "Notes")]
         public string Notes { get; set; }
 
-        public string InstructionText { get; set; }
+        public Int32 InstructionText { get; set; }
 
         public virtual Order Order { get; set; }
         public virtual List<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
