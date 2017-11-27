@@ -46,7 +46,7 @@ namespace Stevens_Kevin_HW7A.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "SubscriptionID,Name,FirstName,LastName,Meals")] Subscription subscription)
+        public ActionResult Create([Bind(Include = "SubscriptionID,Name,FirstName,LastName,Meal")] Subscription subscription)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace Stevens_Kevin_HW7A.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "SubscriptionID,Name,FirstName,LastName,Meals")] Subscription subscription)
+        public ActionResult Edit([Bind(Include = "SubscriptionID,Name,FirstName,LastName,Meal")] Subscription subscription)
         {
             if (ModelState.IsValid)
             {

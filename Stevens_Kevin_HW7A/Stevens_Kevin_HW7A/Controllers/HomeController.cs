@@ -29,7 +29,6 @@ namespace Stevens_Kevin_HW7A.Controllers
         }
 
         //Redirect to contact page view when implemented
-        //Added a comment to test github
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

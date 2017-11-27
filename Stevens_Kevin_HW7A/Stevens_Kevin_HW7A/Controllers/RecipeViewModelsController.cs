@@ -43,14 +43,14 @@ namespace Stevens_Kevin_HW7A.Controllers
 
         // POST: RecipeViewModels/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "RecipeViewModelID,Name,IngredientName,MeasurementType,MeasurementQuantity,IngredientName2,MeasurementType2,MeasurementQuantity2,IngredientName3,MeasurementType3,MeasurementQuantity3,IngredientName4,MeasurementType4,MeasurementQuantity4,IngredientName5,MeasurementType5,MeasurementQuantity5,IngredientName6,MeasurementType6,MeasurementQuantity6,IngredientName7,MeasurementType7,MeasurementQuantity7,IngredientName8,MeasurementType8,MeasurementQuantity8,PrepTime,CookTime,TotalCost,Notes,InstructionText")] RecipeViewModel recipeViewModel)
+        public ActionResult Create([Bind(Include = "RecipeViewModelID,RecipeName,IngredientName,MeasurementType,MeasurementQuantity,IngredientName2,MeasurementType2,MeasurementQuantity2,IngredientName3,MeasurementType3,MeasurementQuantity3,IngredientName4,MeasurementType4,MeasurementQuantity4,IngredientName5,MeasurementType5,MeasurementQuantity5,IngredientName6,MeasurementType6,MeasurementQuantity6,IngredientName7,MeasurementType7,MeasurementQuantity7,IngredientName8,MeasurementType8,MeasurementQuantity8,PrepTime,CookTime,TotalCost,Notes,Instructions")] RecipeViewModel recipeViewModel)
         {
             if (ModelState.IsValid)
             {
-                db.RecipeViewModels.Add(recipeViewModel);               
+                db.RecipeViewModels.Add(recipeViewModel);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -75,10 +75,10 @@ namespace Stevens_Kevin_HW7A.Controllers
 
         // POST: RecipeViewModels/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "RecipeViewModelID,Name,IngredientName,MeasurementType,MeasurementQuantity,IngredientName2,MeasurementType2,MeasurementQuantity2,IngredientName3,MeasurementType3,MeasurementQuantity3,IngredientName4,MeasurementType4,MeasurementQuantity4,IngredientName5,MeasurementType5,MeasurementQuantity5,IngredientName6,MeasurementType6,MeasurementQuantity6,IngredientName7,MeasurementType7,MeasurementQuantity7,IngredientName8,MeasurementType8,MeasurementQuantity8,PrepTime,CookTime,TotalCost,Notes,InstructionText")] RecipeViewModel recipeViewModel)
+        public ActionResult Edit([Bind(Include = "RecipeViewModelID,RecipeName,IngredientName,MeasurementType,MeasurementQuantity,IngredientName2,MeasurementType2,MeasurementQuantity2,IngredientName3,MeasurementType3,MeasurementQuantity3,IngredientName4,MeasurementType4,MeasurementQuantity4,IngredientName5,MeasurementType5,MeasurementQuantity5,IngredientName6,MeasurementType6,MeasurementQuantity6,IngredientName7,MeasurementType7,MeasurementQuantity7,IngredientName8,MeasurementType8,MeasurementQuantity8,PrepTime,CookTime,TotalCost,Notes,Instructions")] RecipeViewModel recipeViewModel)
         {
             if (ModelState.IsValid)
             {

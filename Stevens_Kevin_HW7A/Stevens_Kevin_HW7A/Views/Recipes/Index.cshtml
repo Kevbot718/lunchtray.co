@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<Stevens_Kevin_HW7A.Models.Recipe>
 
 @{
-    ViewBag.Title = "Recipes";
+    ViewBag.Title = "Index";
 }
 
-<h2>Recipes</h2>
+<h2>Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -12,7 +12,7 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Name)
+            @Html.DisplayNameFor(model => model.RecipeName)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.PrepTime)
@@ -26,13 +26,16 @@
         <th>
             @Html.DisplayNameFor(model => model.Notes)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Instructions)
+        </th>
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Name)
+            @Html.DisplayFor(modelItem => item.RecipeName)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.PrepTime)
@@ -45,6 +48,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Notes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Instructions)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.RecipeID }) |

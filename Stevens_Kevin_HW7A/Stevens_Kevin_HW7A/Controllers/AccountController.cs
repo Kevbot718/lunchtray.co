@@ -116,7 +116,7 @@ namespace Stevens_Kevin_HW7A.Controllers
             if (ModelState.IsValid)
             {
                 //Add fields to user here so they will be saved to do the database
-                var user = new AppUser { UserName = model.Email, Email = model.Email, FName = model.FName, LName = model.LName, OKToText = model.OKToText, Major = model.Major, PhoneNumber = model.PhoneNumber };
+                var user = new AppUser { UserName = model.Email, Email = model.Email, FName = model.FName, LName = model.LName};
 
                 //add user to database
                 var result = await UserManager.CreateAsync(user, model.Password);

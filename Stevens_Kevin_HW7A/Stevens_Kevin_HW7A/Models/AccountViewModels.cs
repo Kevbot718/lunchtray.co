@@ -52,20 +52,6 @@ namespace Stevens_Kevin_HW7A.Models
         [Required(ErrorMessage = "Please enter your Last name")]
         [Display(Name = "Last Name")]
         public string LName { get; set; }
-
-        [Required(ErrorMessage = "Please enter your Phone Number")]
-        //[RegularExpression("(/d/d/d)/d/d/d-/d/d/d/d",
-        //ErrorMessage = "Please enter a valid phone number number")]
-        [Display(Name = "Phone Number")]
-        public string PhoneNumber { get; set; }
-
-        [Required(ErrorMessage = "Please specify whether this person is OK to Text")]
-        [Display(Name = "Is it okay to text you?")]
-        public bool OKToText { get; set; }
-
-        [Required(ErrorMessage = "Please specify this persons major")]
-        [Display(Name = "Major")]
-        public Major Major { get; set; }
     }
 
     public class ResetPasswordViewModel

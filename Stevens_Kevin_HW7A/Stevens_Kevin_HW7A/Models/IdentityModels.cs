@@ -11,7 +11,6 @@ namespace Stevens_Kevin_HW7A.Models
 {
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     //create enum drop down list for major selection
-    public enum Major { Accounting, Business_Honors, Finance, International_Business, Management, MIS, Marketing, Supply_Chain_Management, STM };
 
     [Table("AppUsers")]
     public class AppUser : IdentityUser
@@ -26,14 +25,6 @@ namespace Stevens_Kevin_HW7A.Models
         [Required(ErrorMessage = "Please enter your Last name")]
         [Display(Name = "Last Name")]
         public string LName { get; set; }
-
-        [Required(ErrorMessage = "Please specify whether this person is OK to Text")]
-        [Display(Name = "Is it okay to text you?")]
-        public bool OKToText { get; set; }
-
-        [Required(ErrorMessage = "Please specify this persons major")]
-        [Display(Name = "Major")]
-        public Major Major { get; set; }
 
         //This method allows you to create a new user
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<AppUser> manager)
@@ -70,7 +61,6 @@ namespace Stevens_Kevin_HW7A.Models
         public DbSet<Order> Orders { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }
         public DbSet<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
-        public DbSet<Instruction> Instruction { get; set; }
 
         public System.Data.Entity.DbSet<Stevens_Kevin_HW7A.Models.RecipeViewModel> RecipeViewModels { get; set; }
     }
