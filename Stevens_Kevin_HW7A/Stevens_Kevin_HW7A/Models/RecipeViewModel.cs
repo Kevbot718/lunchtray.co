@@ -14,7 +14,7 @@ namespace Stevens_Kevin_HW7A.Models
         public int RecipeViewModelID { get; set; }
 
         [Display(Name = "Name")]
-        public string Name { get; set; }
+        public string RecipeName { get; set; }
 
         [Display (Name = "Ingredient Name")]
         public string IngredientName { get; set; }
@@ -35,7 +35,7 @@ namespace Stevens_Kevin_HW7A.Models
         public Int32 MeasurementQuantity2 { get; set; }
 
         [Display (Name = "Ingredient Name 3")]
-        public string IngredientName { get; set; }
+        public string IngredientName3 { get; set; }
 
         [Display (Name ="Unit 3")]
         public MeasurementType MeasurementType3 { get; set; }
@@ -104,7 +104,6 @@ namespace Stevens_Kevin_HW7A.Models
 
         public virtual Order Order { get; set; }
         public virtual List<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
-        public virtual List<Instruction> Instructions { get; set; }
 
         public IEnumerable<Recipe> Recipes { get; set; }
         public IEnumerable<Ingredient> Ingredients { get; set; }
