@@ -266,6 +266,10 @@
     <Compile Include="Migrations\201711272156573_addedIngredientFields.Designer.cs">
       <DependentUpon>201711272156573_addedIngredientFields.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711272347022_changedinttodouble.cs" />
+    <Compile Include="Migrations\201711272347022_changedinttodouble.Designer.cs">
+      <DependentUpon>201711272347022_changedinttodouble.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -368,6 +372,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711272156573_addedIngredientFields.resx">
       <DependentUpon>201711272156573_addedIngredientFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711272347022_changedinttodouble.resx">
+      <DependentUpon>201711272347022_changedinttodouble.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
