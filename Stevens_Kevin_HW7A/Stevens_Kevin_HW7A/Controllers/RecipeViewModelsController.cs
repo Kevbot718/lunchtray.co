@@ -50,7 +50,7 @@ namespace Stevens_Kevin_HW7A.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.RecipeViewModels.Add(recipeViewModel);
+                db.RecipeViewModels.Add(recipeViewModel);               
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
