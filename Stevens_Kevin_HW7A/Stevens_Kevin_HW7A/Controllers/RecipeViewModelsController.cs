@@ -46,7 +46,7 @@ namespace Stevens_Kevin_HW7A.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "RecipeViewModelID,Name,IngredientName,MeasurementType,MeasurementQuantity,PrepTime,CookTime,TotalCost,Notes,InstructionText")] RecipeViewModel recipeViewModel)
+        public ActionResult Create([Bind(Include = "RecipeViewModelID,Name,IngredientName,MeasurementType,MeasurementQuantity,IngredientName2,MeasurementType2,MeasurementQuantity2,IngredientName3,MeasurementType3,MeasurementQuantity3,IngredientName4,MeasurementType4,MeasurementQuantity4,IngredientName5,MeasurementType5,MeasurementQuantity5,IngredientName6,MeasurementType6,MeasurementQuantity6,IngredientName7,MeasurementType7,MeasurementQuantity7,IngredientName8,MeasurementType8,MeasurementQuantity8,PrepTime,CookTime,TotalCost,Notes,InstructionText")] RecipeViewModel recipeViewModel)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace Stevens_Kevin_HW7A.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "RecipeViewModelID,Name,IngredientName,MeasurementType,MeasurementQuantity,PrepTime,CookTime,TotalCost,Notes,InstructionText")] RecipeViewModel recipeViewModel)
+        public ActionResult Edit([Bind(Include = "RecipeViewModelID,Name,IngredientName,MeasurementType,MeasurementQuantity,IngredientName2,MeasurementType2,MeasurementQuantity2,IngredientName3,MeasurementType3,MeasurementQuantity3,IngredientName4,MeasurementType4,MeasurementQuantity4,IngredientName5,MeasurementType5,MeasurementQuantity5,IngredientName6,MeasurementType6,MeasurementQuantity6,IngredientName7,MeasurementType7,MeasurementQuantity7,IngredientName8,MeasurementType8,MeasurementQuantity8,PrepTime,CookTime,TotalCost,Notes,InstructionText")] RecipeViewModel recipeViewModel)
         {
             if (ModelState.IsValid)
             {
