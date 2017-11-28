@@ -49,10 +49,12 @@
       <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
@@ -199,10 +201,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DatesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IngredientsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
+    <Compile Include="Controllers\RecipeDateBridgesController.cs" />
     <Compile Include="Controllers\RecipesController.cs" />
     <Compile Include="Controllers\RecipeViewModelsController.cs" />
     <Compile Include="Controllers\RoleAdminController.cs" />
@@ -270,13 +274,31 @@
     <Compile Include="Migrations\201711280020529_whatever5.Designer.cs">
       <DependentUpon>201711280020529_whatever5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711282303542_dateaddd.cs" />
+    <Compile Include="Migrations\201711282303542_dateaddd.Designer.cs">
+      <DependentUpon>201711282303542_dateaddd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711282316438_bridgetable.cs" />
+    <Compile Include="Migrations\201711282316438_bridgetable.Designer.cs">
+      <DependentUpon>201711282316438_bridgetable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711282322516_editedRecipeDateBridge.cs" />
+    <Compile Include="Migrations\201711282322516_editedRecipeDateBridge.Designer.cs">
+      <DependentUpon>201711282322516_editedRecipeDateBridge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711282345158_recipeDatBridge.cs" />
+    <Compile Include="Migrations\201711282345158_recipeDatBridge.Designer.cs">
+      <DependentUpon>201711282345158_recipeDatBridge.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Date.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\IdentityRoles.cs" />
     <Compile Include="Models\Ingredient.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\RecipeDateBridge.cs" />
     <Compile Include="Models\RecipeIngredientBridge.cs" />
     <Compile Include="Models\Recipe.cs" />
     <Compile Include="Models\RecipeViewModel.cs" />
@@ -315,6 +337,11 @@
     <Content Include="Views\RecipeViewModels\Details.cshtml" />
     <Content Include="Views\RecipeViewModels\Edit.cshtml" />
     <Content Include="Views\RecipeViewModels\Index.cshtml" />
+    <Content Include="Views\RecipeDateBridges\Create.cshtml" />
+    <Content Include="Views\RecipeDateBridges\Delete.cshtml" />
+    <Content Include="Views\RecipeDateBridges\Details.cshtml" />
+    <Content Include="Views\RecipeDateBridges\Edit.cshtml" />
+    <Content Include="Views\RecipeDateBridges\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -375,6 +402,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711280020529_whatever5.resx">
       <DependentUpon>201711280020529_whatever5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711282303542_dateaddd.resx">
+      <DependentUpon>201711282303542_dateaddd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711282316438_bridgetable.resx">
+      <DependentUpon>201711282316438_bridgetable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711282322516_editedRecipeDateBridge.resx">
+      <DependentUpon>201711282322516_editedRecipeDateBridge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711282345158_recipeDatBridge.resx">
+      <DependentUpon>201711282345158_recipeDatBridge.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

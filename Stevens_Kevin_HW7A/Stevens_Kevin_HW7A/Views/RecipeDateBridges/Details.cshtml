@@ -1,0 +1,42 @@
+﻿@model Stevens_Kevin_HW7A.Models.RecipeDateBridge
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>RecipeDateBridge</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Date.RecipeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date.RecipeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeViewModel.RecipeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeViewModel.RecipeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MenuDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MenuDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
