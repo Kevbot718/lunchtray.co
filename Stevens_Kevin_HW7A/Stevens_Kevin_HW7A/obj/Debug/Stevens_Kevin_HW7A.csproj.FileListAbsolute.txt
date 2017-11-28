@@ -297,4 +297,4 @@ C:\Users\Kevbot\Documents\GitHub\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug
 \\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.csproj.GenerateResource.Cache
 \\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.dll
 \\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.pdb
-\\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.changedinttodouble.resources
+\\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.whatever5.resources
