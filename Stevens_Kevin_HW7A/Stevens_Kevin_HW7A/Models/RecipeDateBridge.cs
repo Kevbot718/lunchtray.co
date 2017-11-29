@@ -15,6 +15,8 @@ namespace Stevens_Kevin_HW7A.Models
         [Key, Column(Order = 1)]
         public Int32 MenuNumber { get; set; }
 
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime MenuDate { get; set; }
 
         [Key, Column(Order = 2)]

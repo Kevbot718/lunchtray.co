@@ -290,6 +290,18 @@
     <Compile Include="Migrations\201711282345158_recipeDatBridge.Designer.cs">
       <DependentUpon>201711282345158_recipeDatBridge.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711290008387_pleasework.cs" />
+    <Compile Include="Migrations\201711290008387_pleasework.Designer.cs">
+      <DependentUpon>201711290008387_pleasework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711290011592_addedDateTable.cs" />
+    <Compile Include="Migrations\201711290011592_addedDateTable.Designer.cs">
+      <DependentUpon>201711290011592_addedDateTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711290014379_deletedRecipefromDAteTable.cs" />
+    <Compile Include="Migrations\201711290014379_deletedRecipefromDAteTable.Designer.cs">
+      <DependentUpon>201711290014379_deletedRecipefromDAteTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Date.cs" />
@@ -337,6 +349,11 @@
     <Content Include="Views\RecipeViewModels\Details.cshtml" />
     <Content Include="Views\RecipeViewModels\Edit.cshtml" />
     <Content Include="Views\RecipeViewModels\Index.cshtml" />
+    <Content Include="Views\Dates\Create.cshtml" />
+    <Content Include="Views\Dates\Delete.cshtml" />
+    <Content Include="Views\Dates\Details.cshtml" />
+    <Content Include="Views\Dates\Edit.cshtml" />
+    <Content Include="Views\Dates\Index.cshtml" />
     <Content Include="Views\RecipeDateBridges\Create.cshtml" />
     <Content Include="Views\RecipeDateBridges\Delete.cshtml" />
     <Content Include="Views\RecipeDateBridges\Details.cshtml" />
@@ -414,6 +431,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711282345158_recipeDatBridge.resx">
       <DependentUpon>201711282345158_recipeDatBridge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711290008387_pleasework.resx">
+      <DependentUpon>201711290008387_pleasework.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711290011592_addedDateTable.resx">
+      <DependentUpon>201711290011592_addedDateTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711290014379_deletedRecipefromDAteTable.resx">
+      <DependentUpon>201711290014379_deletedRecipefromDAteTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

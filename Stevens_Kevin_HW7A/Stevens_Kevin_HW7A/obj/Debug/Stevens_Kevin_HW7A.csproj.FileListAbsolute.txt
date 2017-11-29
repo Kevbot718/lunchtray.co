@@ -302,3 +302,6 @@ C:\Users\Kevbot\Documents\GitHub\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug
 \\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.bridgetable.resources
 \\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.editedRecipeDateBridge.resources
 \\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.recipeDatBridge.resources
+\\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.pleasework.resources
+\\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.addedDateTable.resources
+\\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.deletedRecipefromDAteTable.resources
