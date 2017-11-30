@@ -7,13 +7,21 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Stevens_Kevin_HW7A.Models
 {
+   
+    public enum MenuType { Reg, Cold, Veg };
+
     [Table("Order")]
 
-    //create scalar and navigational properties
     public class Order
     {
         [Key]
         public Int32 OrderID { get; set; }
+
+        [Display(Name = "Menu")]
+        public string Menu { get; set; }
+
+        [Display(Name = "Menu Type")]
+        public MenuType MenuType { get; set; }
 
         [Display(Name = "Serving Size")]
         public string ServingSize { get; set; }

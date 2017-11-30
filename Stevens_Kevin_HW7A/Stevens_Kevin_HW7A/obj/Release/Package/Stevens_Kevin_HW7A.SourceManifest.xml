@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="\\austin.utexas.edu\lib-public\PublicRedirected$\kks736\Documents\Visual Studio 2015\Projects\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Release\Package\PackageTmp" />
-  <setAcl path="\\austin.utexas.edu\lib-public\PublicRedirected$\kks736\Documents\Visual Studio 2015\Projects\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="\\austin.utexas.edu\lib-public\PublicRedirected$\kks736\Documents\Visual Studio 2015\Projects\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\Users\Kevbot\Documents\GitHub\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\Kevbot\Documents\GitHub\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\Kevbot\Documents\GitHub\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

@@ -1,16 +1,16 @@
-﻿
-@{
-    ViewBag.Title = "Membership Tracker";
+﻿@{
+    ViewBag.Title = "Lunchtray.co";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Member Tracker Home Page</h2>
+<h2>Lunchtray.co Home Page</h2>
 
 @*page links*@
 <body>
     <div>
-        @Html.ActionLink("Members", "Index", "Members", null, new { @class = "btn btn-primary" })
-        @Html.ActionLink("Events", "Index", "Events", null, new { @class = "btn btn-success" })
-        @Html.ActionLink("Committees", "Index", "Committees", null, new { @class = "btn btn-danger" })
+        @Html.ActionLink("Recipes", "Index", "RecipeViewModels", null, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Ingredients", "Index", "Ingredients", null, new { @class = "btn btn-success" })
+        @Html.ActionLink("Orders", "Index", "Orders", null, new { @class = "btn btn-danger" })
+        @Html.ActionLink("Subscriptions", "Index", "Subscriptions", null, new { @class = "btn btn-primary" })
     </div>
 </body>
