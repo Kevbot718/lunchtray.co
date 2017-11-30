@@ -63,9 +63,5 @@ namespace Stevens_Kevin_HW7A.Models
         public DbSet<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
 
         public System.Data.Entity.DbSet<Stevens_Kevin_HW7A.Models.RecipeViewModel> RecipeViewModels { get; set; }
-
-        public System.Data.Entity.DbSet<Stevens_Kevin_HW7A.Models.Date> Dates { get; set; }
-
-        public System.Data.Entity.DbSet<Stevens_Kevin_HW7A.Models.RecipeDateBridge> RecipeDateBridges { get; set; }
     }
 }

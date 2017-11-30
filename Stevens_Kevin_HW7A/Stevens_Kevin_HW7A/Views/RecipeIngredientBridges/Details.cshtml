@@ -1,0 +1,58 @@
+﻿@model Stevens_Kevin_HW7A.Models.RecipeIngredientBridge
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>RecipeIngredientBridge</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingredient.IngredientName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ingredient.IngredientName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Recipe.RecipeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Recipe.RecipeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IngredientName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IngredientName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MeasurementType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MeasurementType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MeasurementQuantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MeasurementQuantity)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

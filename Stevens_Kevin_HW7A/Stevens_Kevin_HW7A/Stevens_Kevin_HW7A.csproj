@@ -201,15 +201,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-    <Compile Include="Controllers\DatesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IngredientsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="Controllers\OrdersController.cs" />
-    <Compile Include="Controllers\RecipeDateBridgesController.cs" />
->>>>>>> c743325781e48c798b0ab356a13dc51eedc568fc
+    <Compile Include="Controllers\RecipeIngredientBridgesController.cs" />
     <Compile Include="Controllers\RecipesController.cs" />
     <Compile Include="Controllers\RecipeViewModelsController.cs" />
     <Compile Include="Controllers\RoleAdminController.cs" />
@@ -273,41 +269,17 @@
     <Compile Include="Migrations\201711272156573_addedIngredientFields.Designer.cs">
       <DependentUpon>201711272156573_addedIngredientFields.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="Migrations\201711272328332_orderModelChange.cs" />
-    <Compile Include="Migrations\201711272328332_orderModelChange.Designer.cs">
-      <DependentUpon>201711272328332_orderModelChange.cs</DependentUpon>
-=======
-    <Compile Include="Migrations\201711280020529_whatever5.cs" />
-    <Compile Include="Migrations\201711280020529_whatever5.Designer.cs">
-      <DependentUpon>201711280020529_whatever5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201711282303542_dateaddd.cs" />
-    <Compile Include="Migrations\201711282303542_dateaddd.Designer.cs">
-      <DependentUpon>201711282303542_dateaddd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201711282316438_bridgetable.cs" />
-    <Compile Include="Migrations\201711282316438_bridgetable.Designer.cs">
-      <DependentUpon>201711282316438_bridgetable.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201711282322516_editedRecipeDateBridge.cs" />
-    <Compile Include="Migrations\201711282322516_editedRecipeDateBridge.Designer.cs">
-      <DependentUpon>201711282322516_editedRecipeDateBridge.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201711282345158_recipeDatBridge.cs" />
-    <Compile Include="Migrations\201711282345158_recipeDatBridge.Designer.cs">
-      <DependentUpon>201711282345158_recipeDatBridge.cs</DependentUpon>
->>>>>>> c743325781e48c798b0ab356a13dc51eedc568fc
+    <Compile Include="Migrations\201711290128536_new2.cs" />
+    <Compile Include="Migrations\201711290128536_new2.Designer.cs">
+      <DependentUpon>201711290128536_new2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Date.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\IdentityRoles.cs" />
     <Compile Include="Models\Ingredient.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Order.cs" />
-    <Compile Include="Models\RecipeDateBridge.cs" />
     <Compile Include="Models\RecipeIngredientBridge.cs" />
     <Compile Include="Models\Recipe.cs" />
     <Compile Include="Models\RecipeViewModel.cs" />
@@ -319,6 +291,11 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Views\Orders\Create.cshtml" />
+    <Content Include="Views\Orders\Delete.cshtml" />
+    <Content Include="Views\Orders\Details.cshtml" />
+    <Content Include="Views\Orders\Edit.cshtml" />
+    <Content Include="Views\Orders\Index.cshtml" />
     <Content Include="Views\Ingredients\Create.cshtml" />
     <Content Include="Views\Ingredients\Delete.cshtml" />
     <Content Include="Views\Ingredients\Details.cshtml" />
@@ -341,11 +318,11 @@
     <Content Include="Views\RecipeViewModels\Details.cshtml" />
     <Content Include="Views\RecipeViewModels\Edit.cshtml" />
     <Content Include="Views\RecipeViewModels\Index.cshtml" />
-    <Content Include="Views\RecipeDateBridges\Create.cshtml" />
-    <Content Include="Views\RecipeDateBridges\Delete.cshtml" />
-    <Content Include="Views\RecipeDateBridges\Details.cshtml" />
-    <Content Include="Views\RecipeDateBridges\Edit.cshtml" />
-    <Content Include="Views\RecipeDateBridges\Index.cshtml" />
+    <Content Include="Views\RecipeIngredientBridges\Create.cshtml" />
+    <Content Include="Views\RecipeIngredientBridges\Delete.cshtml" />
+    <Content Include="Views\RecipeIngredientBridges\Details.cshtml" />
+    <Content Include="Views\RecipeIngredientBridges\Edit.cshtml" />
+    <Content Include="Views\RecipeIngredientBridges\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -404,25 +381,8 @@
     <EmbeddedResource Include="Migrations\201711272156573_addedIngredientFields.resx">
       <DependentUpon>201711272156573_addedIngredientFields.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="Migrations\201711272328332_orderModelChange.resx">
-      <DependentUpon>201711272328332_orderModelChange.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="Migrations\201711280020529_whatever5.resx">
-      <DependentUpon>201711280020529_whatever5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201711282303542_dateaddd.resx">
-      <DependentUpon>201711282303542_dateaddd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201711282316438_bridgetable.resx">
-      <DependentUpon>201711282316438_bridgetable.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201711282322516_editedRecipeDateBridge.resx">
-      <DependentUpon>201711282322516_editedRecipeDateBridge.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201711282345158_recipeDatBridge.resx">
-      <DependentUpon>201711282345158_recipeDatBridge.cs</DependentUpon>
->>>>>>> c743325781e48c798b0ab356a13dc51eedc568fc
+    <EmbeddedResource Include="Migrations\201711290128536_new2.resx">
+      <DependentUpon>201711290128536_new2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
