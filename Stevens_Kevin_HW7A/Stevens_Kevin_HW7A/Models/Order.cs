@@ -7,33 +7,27 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Stevens_Kevin_HW7A.Models
 {
-    [Table("Order")]
 
-    //create scalar and navigational properties
+    public enum MenuType { Regular, Cold, Vegetarian};
+    public enum PortionSize { PreSchool, Elementary, Adult};
+
+
     public class Order
     {
+        
         [Key]
         public Int32 OrderID { get; set; }
 
-        [Display(Name = "Serving Size")]
-        public string ServingSize { get; set; }
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
+        public DateTime Date { get; set; }
 
-        [Display(Name = "Monday")]
-        public string Monday { get; set; }
+        public MenuType Type { get; set; }
 
-        [Display(Name = "Tuesday")]
-        public string Tuesday { get; set; }
-
-        [Display(Name = "Wednesday")]
-        public string Wednesday { get; set; }
-
-        [Display(Name = "Thursday")]
-        public string Thursday { get; set; }
-
-        [Display(Name = "Friday")]
-        public string Friday { get; set; }
+        public PortionSize PortionSize { get; set; }
 
 
-        public virtual List<Ingredient> Ingredients { get; set; }
+        public virtual List<CustomerOrderBridge> CustomerOrderBridges { get; set; }
+        public virtual DayConfig DayConfig { get; set; }
     }
 }

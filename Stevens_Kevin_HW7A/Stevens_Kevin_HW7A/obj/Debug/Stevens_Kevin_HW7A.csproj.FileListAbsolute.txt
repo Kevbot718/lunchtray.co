@@ -415,3 +415,4 @@ C:\Users\Kevbot\Documents\GitHub\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug
 \\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.measurementquantityfirstonedouble.resources
 \\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.ingredientmultipliers.resources
 \\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.editedrecipedatabase.resources
+\\Mac\Home\Documents\lunchtray.co\Stevens_Kevin_HW7A\Stevens_Kevin_HW7A\obj\Debug\Stevens_Kevin_HW7A.Migrations.fournewmodels.resources

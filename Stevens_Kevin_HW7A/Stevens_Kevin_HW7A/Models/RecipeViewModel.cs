@@ -106,7 +106,6 @@ namespace Stevens_Kevin_HW7A.Models
         public String Instructions { get; set; }
 
         public virtual List<Recipe> Recipes { get; set; }
-        public virtual Order Order { get; set; }
         public virtual List<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
 
     }
