@@ -25,9 +25,9 @@ namespace Stevens_Kevin_HW7A.Models
 
         public double MeasurementQuantity { get; set; }
 
-        public const double ElementaryMultiplier = 1.0;
+        public double ElementaryMultiplier { get; set; }
 
-        public const double AdultMultiplier = 1.0;
+        public double AdultMultiplier { get; set; }
 
         public virtual Recipe Recipe { get; set; }
         public virtual Ingredient Ingredient { get; set; }

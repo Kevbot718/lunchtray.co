@@ -277,6 +277,10 @@
     <Compile Include="Migrations\201711300500242_measurementquantityfirstonedouble.Designer.cs">
       <DependentUpon>201711300500242_measurementquantityfirstonedouble.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711300749456_ingredientmultipliers.cs" />
+    <Compile Include="Migrations\201711300749456_ingredientmultipliers.Designer.cs">
+      <DependentUpon>201711300749456_ingredientmultipliers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -390,6 +394,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711300500242_measurementquantityfirstonedouble.resx">
       <DependentUpon>201711300500242_measurementquantityfirstonedouble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711300749456_ingredientmultipliers.resx">
+      <DependentUpon>201711300749456_ingredientmultipliers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
