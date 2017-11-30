@@ -16,15 +16,6 @@ namespace Stevens_Kevin_HW7A.Models
         [Display(Name = "Recipe")]
         public string RecipeName { get; set; }
 
-        [Display(Name = "Prep Time")]
-        public Int32 PrepTime { get; set; }
-
-        [Display(Name = "Cook Time")]
-        public Int32 CookTime { get; set; }
-
-        [Display(Name = "Total Cost")]
-        public double TotalCost { get; set; }
-
         [Display(Name = "Notes")]
         public string Notes { get; set; }
 

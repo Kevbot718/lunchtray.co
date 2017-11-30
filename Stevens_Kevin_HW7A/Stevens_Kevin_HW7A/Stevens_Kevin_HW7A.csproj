@@ -281,6 +281,10 @@
     <Compile Include="Migrations\201711300749456_ingredientmultipliers.Designer.cs">
       <DependentUpon>201711300749456_ingredientmultipliers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711300844504_editedrecipedatabase.cs" />
+    <Compile Include="Migrations\201711300844504_editedrecipedatabase.Designer.cs">
+      <DependentUpon>201711300844504_editedrecipedatabase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -397,6 +401,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711300749456_ingredientmultipliers.resx">
       <DependentUpon>201711300749456_ingredientmultipliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711300844504_editedrecipedatabase.resx">
+      <DependentUpon>201711300844504_editedrecipedatabase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
