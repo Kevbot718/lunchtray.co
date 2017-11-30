@@ -26,7 +26,7 @@ namespace Stevens_Kevin_HW7A.Models
         public MeasurementType MeasurementType { get; set; }
 
         [Display(Name = "Quantity")]
-        public Int32 MeasurementQuantity { get; set; }
+        public double MeasurementQuantity { get; set; }
 
         [Display(Name = "Ingredient 2")]
         public String IngredientName2 { get; set; }
@@ -35,7 +35,7 @@ namespace Stevens_Kevin_HW7A.Models
         public MeasurementType MeasurementType2 { get; set; }
 
         [Display(Name = "Quantity 2")]
-        public Int32 MeasurementQuantity2 { get; set; }
+        public int MeasurementQuantity2 { get; set; }
 
         [Display(Name = "Ingredient 3")]
         public String IngredientName3 { get; set; }
@@ -44,7 +44,7 @@ namespace Stevens_Kevin_HW7A.Models
         public MeasurementType MeasurementType3 { get; set; }
 
         [Display(Name = "Quantity 3")]
-        public Int32 MeasurementQuantity3 { get; set; }
+        public int MeasurementQuantity3 { get; set; }
 
         [Display(Name = "Ingredient 4")]
         public String IngredientName4 { get; set; }
@@ -53,7 +53,7 @@ namespace Stevens_Kevin_HW7A.Models
         public MeasurementType MeasurementType4 { get; set; }
 
         [Display(Name = "Quantity 4")]
-        public Int32 MeasurementQuantity4 { get; set; }
+        public int MeasurementQuantity4 { get; set; }
 
         [Display(Name = "Ingredient 5")]
         public String IngredientName5 { get; set; }
@@ -62,7 +62,7 @@ namespace Stevens_Kevin_HW7A.Models
         public MeasurementType MeasurementType5 { get; set; }
 
         [Display(Name = "Quantity 5")]
-        public Int32 MeasurementQuantity5 { get; set; }
+        public int MeasurementQuantity5 { get; set; }
 
         [Display(Name = "Ingredient 6")]
         public String IngredientName6 { get; set; }
@@ -71,7 +71,7 @@ namespace Stevens_Kevin_HW7A.Models
         public MeasurementType MeasurementType6 { get; set; }
 
         [Display(Name = "Quantity 6")]
-        public Int32 MeasurementQuantity6 { get; set; }
+        public int MeasurementQuantity6 { get; set; }
 
         [Display(Name = "Ingredient 7")]
         public String IngredientName7 { get; set; }
@@ -80,7 +80,7 @@ namespace Stevens_Kevin_HW7A.Models
         public MeasurementType MeasurementType7 { get; set; }
 
         [Display(Name = "Quantity 7")]
-        public Int32 MeasurementQuantity7 { get; set; }
+        public int MeasurementQuantity7 { get; set; }
 
         [Display(Name = "Ingredient 8")]
         public String IngredientName8 { get; set; }
@@ -89,7 +89,7 @@ namespace Stevens_Kevin_HW7A.Models
         public MeasurementType MeasurementType8 { get; set; }
 
         [Display(Name = "Quantity 8")]
-        public Int32 MeasurementQuantity8 { get; set; }
+        public int MeasurementQuantity8 { get; set; }
 
         [Display(Name = "Prep Time")]
         public Int32 PrepTime { get; set; }

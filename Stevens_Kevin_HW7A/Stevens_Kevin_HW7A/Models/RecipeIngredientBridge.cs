@@ -23,7 +23,7 @@ namespace Stevens_Kevin_HW7A.Models
 
         public MeasurementType MeasurementType { get; set; }
 
-        public Int32 MeasurementQuantity { get; set; }
+        public double MeasurementQuantity { get; set; }
 
         public const double ElementaryMultiplier = 1.0;
 
