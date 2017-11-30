@@ -15,10 +15,10 @@ namespace Stevens_Kevin_HW7A.Models
         public Int32 MenuNumber { get; set; }
 
         [Display (Name = "Date")]
-        [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime MenuDate {get; set;}
 
+        public Int32 RecipeViewModelID { get; set; }
+        public String RecipeName { get; set; }
 
         public virtual List<RecipeDateBridge> RDB { get; set; }
        
