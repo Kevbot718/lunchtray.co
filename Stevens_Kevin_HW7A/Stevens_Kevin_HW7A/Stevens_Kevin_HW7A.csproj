@@ -285,9 +285,9 @@
     <Compile Include="Migrations\201711300844504_editedrecipedatabase.Designer.cs">
       <DependentUpon>201711300844504_editedrecipedatabase.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201711302346039_fournewmodels.cs" />
-    <Compile Include="Migrations\201711302346039_fournewmodels.Designer.cs">
-      <DependentUpon>201711302346039_fournewmodels.cs</DependentUpon>
+    <Compile Include="Migrations\201712010001478_4models.cs" />
+    <Compile Include="Migrations\201712010001478_4models.Designer.cs">
+      <DependentUpon>201712010001478_4models.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -412,8 +412,8 @@
     <EmbeddedResource Include="Migrations\201711300844504_editedrecipedatabase.resx">
       <DependentUpon>201711300844504_editedrecipedatabase.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201711302346039_fournewmodels.resx">
-      <DependentUpon>201711302346039_fournewmodels.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201712010001478_4models.resx">
+      <DependentUpon>201712010001478_4models.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
