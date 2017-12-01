@@ -63,5 +63,11 @@ namespace Stevens_Kevin_HW7A.Models
         public DbSet<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
 
         public System.Data.Entity.DbSet<Stevens_Kevin_HW7A.Models.RecipeViewModel> RecipeViewModels { get; set; }
+
+        public System.Data.Entity.DbSet<Stevens_Kevin_HW7A.Models.Customer> Customers { get; set; }
+
+        public System.Data.Entity.DbSet<Stevens_Kevin_HW7A.Models.CustomerOrderBridge> CustomerOrderBridges { get; set; }
+
+        public System.Data.Entity.DbSet<Stevens_Kevin_HW7A.Models.DayConfig> DayConfigs { get; set; }
     }
 }
