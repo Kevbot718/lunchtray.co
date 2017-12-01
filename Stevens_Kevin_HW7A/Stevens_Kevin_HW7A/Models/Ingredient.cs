@@ -7,11 +7,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Stevens_Kevin_HW7A.Models
 {
-    [Table("Ingredient")]
-
-    //create scalar and navigational properties
     public class Ingredient
     {
+
         [Key]
         public Int32 IngredientID { get; set; }
 

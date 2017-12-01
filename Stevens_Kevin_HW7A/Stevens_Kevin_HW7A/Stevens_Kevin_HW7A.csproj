@@ -201,9 +201,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CustomerOrderBridgesController.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
+    <Compile Include="Controllers\DayConfigsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IngredientsController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\Orders1Controller.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\RecipeIngredientBridgesController.cs" />
     <Compile Include="Controllers\RecipesController.cs" />
@@ -285,8 +289,15 @@
     <Compile Include="Migrations\201711300844504_editedrecipedatabase.Designer.cs">
       <DependentUpon>201711300844504_editedrecipedatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712010001478_4models.cs" />
+    <Compile Include="Migrations\201712010001478_4models.Designer.cs">
+      <DependentUpon>201712010001478_4models.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\CustomerOrderBridge.cs" />
+    <Compile Include="Models\DayConfig.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\IdentityRoles.cs" />
     <Compile Include="Models\Ingredient.cs" />
@@ -335,6 +346,26 @@
     <Content Include="Views\RecipeIngredientBridges\Details.cshtml" />
     <Content Include="Views\RecipeIngredientBridges\Edit.cshtml" />
     <Content Include="Views\RecipeIngredientBridges\Index.cshtml" />
+    <Content Include="Views\Customers\Create.cshtml" />
+    <Content Include="Views\Customers\Delete.cshtml" />
+    <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Customers\Edit.cshtml" />
+    <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\CustomerOrderBridges\Create.cshtml" />
+    <Content Include="Views\CustomerOrderBridges\Delete.cshtml" />
+    <Content Include="Views\CustomerOrderBridges\Details.cshtml" />
+    <Content Include="Views\CustomerOrderBridges\Edit.cshtml" />
+    <Content Include="Views\CustomerOrderBridges\Index.cshtml" />
+    <Content Include="Views\DayConfigs\Create.cshtml" />
+    <Content Include="Views\DayConfigs\Delete.cshtml" />
+    <Content Include="Views\DayConfigs\Details.cshtml" />
+    <Content Include="Views\DayConfigs\Edit.cshtml" />
+    <Content Include="Views\DayConfigs\Index.cshtml" />
+    <Content Include="Views\Orders1\Create.cshtml" />
+    <Content Include="Views\Orders1\Delete.cshtml" />
+    <Content Include="Views\Orders1\Details.cshtml" />
+    <Content Include="Views\Orders1\Edit.cshtml" />
+    <Content Include="Views\Orders1\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -404,6 +435,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711300844504_editedrecipedatabase.resx">
       <DependentUpon>201711300844504_editedrecipedatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712010001478_4models.resx">
+      <DependentUpon>201712010001478_4models.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

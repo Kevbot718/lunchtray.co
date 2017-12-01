@@ -21,7 +21,7 @@ namespace Stevens_Kevin_HW7A.Models
 
         public string Instructions { get; set; }
 
-        public virtual Order Order { get; set; }
+        public virtual List<DayConfig> DayConfig { get; set; }
         public virtual List<RecipeIngredientBridge> RecipeIngredientBridges { get; set; }
     }
 }
