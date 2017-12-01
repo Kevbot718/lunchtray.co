@@ -1,17 +1,5 @@
-﻿.homeScreenWidth
+﻿.ingredient-row
 {
-    min-width: 600px;
-}
-
-.home-btn-width 
-{
-    width: 90%;
-    height: 20%;
-    margin: 2px 5px;
-}
-
-
-.ingredient-row {
     display: inline-block;
 }
 

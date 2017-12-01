@@ -6,9 +6,11 @@
 <h2>Lunchtray.co Home Page</h2>
 
 @*page links*@
-<body class="homeScreenWidth">
-    @Html.ActionLink("Recipes", "Index", "RecipeViewModels", null, new { @class = "btn btn-primary home-btn-width" })<br />
-    @Html.ActionLink("Ingredients", "Index", "Ingredients", null, new { @class = "btn btn-success home-btn-width" })<br />
-    @Html.ActionLink("Orders", "Index", "Orders", null, new { @class = "btn btn-danger home-btn-width" })<br />
-    @Html.ActionLink("Subscriptions", "Index", "Subscriptions", null, new { @class = "btn btn-primary home-btn-width" })
+<body>
+    <div>
+        @Html.ActionLink("Recipes", "Index", "RecipeViewModels", null, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Ingredients", "Index", "Ingredients", null, new { @class = "btn btn-success" })
+        @Html.ActionLink("Orders", "Index", "Orders", null, new { @class = "btn btn-danger" })
+        @Html.ActionLink("Subscriptions", "Index", "Subscriptions", null, new { @class = "btn btn-primary" })
+    </div>
 </body>
